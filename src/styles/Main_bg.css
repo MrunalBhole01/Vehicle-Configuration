@@ -1,0 +1,33 @@
+.project-header {
+    position: relative;
+    width: 100%;
+    height: 60vh; /* Adjust height as needed */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white; /* Text color */
+    overflow: hidden;
+  }
+  
+  .header-content {
+    position: relative;
+    z-index: 1;
+    max-width: 80%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Background with opacity */
+    border-radius: 10px; /* Rounded corners */
+  }
+  
+  .header-content h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+  }
+  
+  .header-content p {
+    font-size: 1.5em;
+    line-height: 1.4;
+  }
+  
